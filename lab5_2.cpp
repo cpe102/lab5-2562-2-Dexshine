@@ -4,9 +4,8 @@ using namespace std;
 string mixText(string s1,string s2){
 	if(s1.size()==s2.size()){
 		string s="";
-		int length = s1.size();
 		int i = 0;
-		while(i<length){
+		while(i<s1.size()){
 			s = s + s1[i] + s2[i];
 			i++;
 		}
